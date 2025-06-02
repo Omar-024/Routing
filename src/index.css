@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+.active{
+    background-color: #1ABA9F ;
+    border-radius: 8px;
+   
+}
+a{
+     padding: 7px 12px !important;
+}
